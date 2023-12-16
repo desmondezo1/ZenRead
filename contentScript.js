@@ -73,4 +73,4 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
 
 
 //  Apply Bionic Reading on page load
-toggleBionicReading();
+// toggleBionicReading();
