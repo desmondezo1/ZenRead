@@ -58,6 +58,15 @@ If you're ready to contribute to ZenRead, here's how to set up the project for l
 
 5. Submit a pull request through the GitHub website using the template provided.
 
+## Setting Up Chrome Extension Environment
+
+To set up the ZenRead Chrome extension for development and testing:
+
+1. Navigate to `chrome://extensions/` in the Google Chrome browser.
+2. Enable 'Developer mode' at the top right corner.
+3. Click 'Load unpacked' and select the `dist` or `build` folder from the cloned ZenRead repository.
+4. The ZenRead extension should now be installed in your Chrome browser for development testing.
+
 ## How to Report a Bug
 
 If you find a security vulnerability, do NOT open an issue. Email [desmondezoojile@gmail.com](mailto:desmondezoojile@gmail.com) instead.
@@ -72,10 +81,6 @@ If you're reporting a non-critical issue, follow these steps:
 ## How to Suggest a Feature or Enhancement
 
 If you find yourself wishing for a feature that doesn't exist in ZenRead, you are probably not alone. There are bound to be others out there with similar needs. Open an issue on our issues list on GitHub which describes the feature you would like to see, why you need it, and how it should work.
-
-## How to Set Up Your Environment
-
-Please refer to the `README.md` for instructions on setting up your development environment.
 
 ## Code of Conduct
 
