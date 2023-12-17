@@ -1,0 +1,78 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #2C3E50; /* Placeholder for logo's main color */
+    color: #ECF0F1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: #34495E; /* A slightly darker shade for the header */
+}
+
+.logo {
+    height: 50px; /* Adjust based on your actual logo */
+}
+
+nav {
+    margin-left: auto;
+    /* Add styles for navigation items if required */
+}
+
+.main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 3em;
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+}
+
+.main p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin-top: 0.5em;
+}
+
+.buttons {
+    margin: 30px 0;
+}
+
+.btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #3498DB; /* A complementary blue */
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.btn:hover {
+    background-color: #2980B9; /* A darker shade for hover state */
+}
+
+.command {
+    background: #34495E; /* Header background for consistency */
+    color: #95A5A6; /* Soft gray for the command text */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
