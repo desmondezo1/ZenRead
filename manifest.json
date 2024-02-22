@@ -3,7 +3,7 @@
     "name": "ZenRead",
     "version": "1.0.0",
     "description": "Toggle Bionic Reading mode on web pages for improved reading experience. Make reading easier and faster",
-    "permissions": ["activeTab", "storage", "scripting"],
+    "permissions": ["activeTab", "scripting"],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
